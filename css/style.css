@@ -1,0 +1,33 @@
+*{box-sizing:border-box}
+body{margin:0;font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic UI","Meiryo",sans-serif;color:#1f2933;line-height:1.8;background:#fff}
+a{color:#0b6e4f}
+img{max-width:100%;height:auto;display:block;border-radius:8px}
+.inner{max-width:960px;margin:0 auto;padding:0 16px}
+.site-header{background:#0b6e4f;color:#fff}
+.site-header .inner{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px;padding-top:12px;padding-bottom:12px}
+.logo{color:#fff;font-weight:700;font-size:1.3rem;text-decoration:none}
+.site-header ul{display:flex;flex-wrap:wrap;gap:4px 16px;list-style:none;margin:0;padding:0}
+.site-header nav a{color:#fff;text-decoration:none}
+.site-header nav a[aria-current]{text-decoration:underline}
+main.inner{padding-top:24px;padding-bottom:40px}
+h1,.page-title{font-size:1.8rem;line-height:1.4;margin:0 0 16px;font-weight:700}
+h2{font-size:1.35rem;margin:32px 0 8px;border-left:6px solid #0b6e4f;padding-left:10px}
+h3{font-size:1.1rem;margin:0 0 4px}
+.hero{display:grid;gap:16px}
+.hero-text .lead{font-size:1.5rem;font-weight:700;margin:0 0 8px}
+.notice{background:#fff7e6;border:1px solid #f0c36d;border-radius:8px;padding:10px 14px}
+.cards{display:grid;gap:16px}
+.card{border:1px solid #d5dde5;border-radius:8px;padding:14px}
+.btn{display:inline-block;background:#e8590c;color:#fff;text-decoration:none;font-weight:700;padding:12px 24px;border-radius:999px;border:0;font-size:1rem;cursor:pointer;font-family:inherit}
+.btn:hover{background:#c94a06}
+table{border-collapse:collapse;width:100%;margin:12px 0}
+th,td{border:1px solid #d5dde5;padding:8px 10px;text-align:left;vertical-align:top}
+th{background:#f1f5f4}
+.breadcrumb{font-size:.9rem;margin:0 0 8px}
+.author{color:#52606d;font-size:.95rem}
+.reserve label{display:block;font-weight:700}
+.reserve select{font-size:1rem;padding:6px;min-width:240px;max-width:100%}
+.site-footer{background:#f1f5f4;font-size:.9rem;padding:16px 0}
+.site-footer p{margin:4px 0}
+.practice{color:#52606d}
+@media (min-width:720px){.hero{grid-template-columns:3fr 2fr;align-items:center}.cards{grid-template-columns:repeat(3,1fr)}}
