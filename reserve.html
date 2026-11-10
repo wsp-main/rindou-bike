@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>修理の予約｜りんどう自転車店</title>
+<meta name="description" content="りんどう自転車店の修理の予約のページです。希望の日と時間帯、修理の内容を選んでください。">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="favicon.png">
+</head>
+<body>
+<header class="site-header">
+<div class="inner">
+<a class="logo" href="index.html">りんどう自転車店</a>
+<nav>
+<ul>
+<li><a href="index.html">トップ</a></li>
+<li><a href="service.html">修理と料金</a></li>
+<li><a href="rental.html">レンタサイクル</a></li>
+<li><a href="access.html">お店の場所</a></li>
+<li><a href="reserve.html" aria-current="page">予約</a></li>
+</ul>
+</nav>
+</div>
+</header>
+<main class="inner">
+<h1 class="page-title">修理の予約</h1>
+<p>希望の日と時間帯、修理の内容を選んで、「予約を申し込む」を押してください。</p>
+<p class="notice">練習用: 入力した内容はどこにも送られません。</p>
+<form class="reserve" action="thanks.html" method="get">
+<p><label for="day">希望の日</label>
+<select id="day">
+<option>平日</option>
+<option>土曜日</option>
+<option>日曜日・祝日</option>
+</select></p>
+<p><label for="time">時間帯</label>
+<select id="time">
+<option>10:00〜12:00</option>
+<option>12:00〜15:00</option>
+<option>15:00〜18:00</option>
+</select></p>
+<p><label for="menu">修理の内容</label>
+<select id="menu">
+<option>パンク修理</option>
+<option>ブレーキの調整</option>
+<option>チェーンの交換</option>
+<option>点検</option>
+</select></p>
+<p><button type="submit" class="btn">予約を申し込む</button></p>
+</form>
+</main>
+<footer class="site-footer">
+<div class="inner">
+<p>りんどう自転車店　営業時間 10:00〜19:00（水曜定休）</p>
+<p class="practice">このサイトは、Web マーケティングの練習用に作った架空のお店のサイトです。実在のお店ではありません。</p>
+</div>
+</footer>
+</body>
+</html>
